@@ -8,7 +8,7 @@ source: community
 
 # BlockRun
 
-**BlockRun works with Claude Code and Google Antigravity.**
+**BlockRun works with Claude Code and AI coding assistants.**
 
 You can't generate images. You have no real-time X/Twitter access. BlockRun gives you these capabilities.
 

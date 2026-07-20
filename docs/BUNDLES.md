@@ -1,4 +1,4 @@
-# 📦 Antigravity Skill Bundles
+# 📦 Agentic Skill Bundles
 
 > **Curated collections of skills organized by role and expertise level.** Don't know where to start? Pick a bundle below to get a curated set of skills for your role.
 
@@ -7,9 +7,9 @@
 1. **Install the repository:**
 
    ```bash
-   npx antigravity-awesome-skills
+   npx agentic-awesome-skills
    # or clone manually
-   git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+   git clone https://github.com/Abdeltoto/agentic-awesome-skills.git .agent/skills
    ```
 
 2. **Choose your bundle** from the list below based on your role or interests.
@@ -449,7 +449,7 @@ Keep a small list of high-frequency skills and reuse it across tasks to reduce c
 
 ## 🤝 Contributing
 
-Found a skill that should be in a bundle? Or want to create a new bundle? [Open an issue](https://github.com/sickn33/antigravity-awesome-skills/issues) or submit a PR!
+Found a skill that should be in a bundle? Or want to create a new bundle? [Open an issue](https://github.com/Abdeltoto/agentic-awesome-skills/issues) or submit a PR!
 
 ---
 

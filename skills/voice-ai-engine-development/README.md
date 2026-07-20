@@ -150,7 +150,7 @@ See `references/common_pitfalls.md` for detailed solutions to:
 
 ## Contributing
 
-This skill is part of the Antigravity Awesome Skills repository. Contributions are welcome!
+This skill is part of the Agentic Awesome Skills repository. Contributions are welcome!
 
 ## Related Skills
 
@@ -172,4 +172,4 @@ MIT License - See repository LICENSE file
 
 ---
 
-**Built with ❤️ for the Antigravity community**
+**Built with ❤️ for the Agentic skills community**

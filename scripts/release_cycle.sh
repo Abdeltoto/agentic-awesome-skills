@@ -10,7 +10,7 @@ RED='\033[0;31m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
 
-echo -e "${YELLOW}🤖 Initiating Antigravity Release Protocol...${NC}"
+echo -e "${YELLOW}🤖 Initiating Agentic Release Protocol...${NC}"
 
 # 1. Validation Chain
 echo -e "\n${YELLOW}Step 1: Running Validation Chain...${NC}"

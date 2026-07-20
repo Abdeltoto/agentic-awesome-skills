@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the **Antigravity Awesome Skills** collection are documented in this file.
+All notable changes to the **Agentic Awesome Skills** collection are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -460,9 +460,9 @@ _Upgrade now: `git pull origin main` to fetch the latest skills._
 
 ## [6.0.0] - 2026-02-22 - "Codex YAML Fix & Community PRs"
 
-> **Major release: Codex frontmatter fixes, AWS Security & Compliance skills, Antigravity Workspace Manager CLI, and validation fixes.**
+> **Major release: Codex frontmatter fixes, AWS Security & Compliance skills, Agentic Workspace Manager CLI, and validation fixes.**
 
-This release addresses Codex invalid YAML warnings (issue #108) via frontmatter fixes, adds AWS Security & Compliance skills and the official Antigravity Workspace Manager CLI companion, and fixes validation for nerdzao-elite skills.
+This release addresses Codex invalid YAML warnings (issue #108) via frontmatter fixes, adds AWS Security & Compliance skills and the official Agentic Workspace Manager CLI companion, and fixes validation for nerdzao-elite skills.
 
 ## New Skills
 
@@ -472,7 +472,7 @@ This release addresses Codex invalid YAML warnings (issue #108) via frontmatter 
 ## Improvements
 
 - **Frontmatter**: Fixed YAML frontmatter in code-reviewer, architect-review, c-pro, design-orchestration, haskell-pro, multi-agent-brainstorming, performance-engineer, search-specialist (PR #111) — reduces Codex "invalid YAML" warnings (fixes #108).
-- **Antigravity Workspace Manager**: Official CLI companion to auto-provision skill subsets across environments (PR #110); documented in Community Contributors.
+- **Agentic Workspace Manager**: Official CLI companion to auto-provision skill subsets across environments (PR #110); documented in Community Contributors.
 - **Registry**: Now tracking 889 skills.
 - **Validation**: Added frontmatter and "When to Use" for nerdzao-elite / nerdzao-elite-gemini-high.
 
@@ -480,7 +480,7 @@ This release addresses Codex invalid YAML warnings (issue #108) via frontmatter 
 
 - **@Vonfry** for frontmatter YAML fixes (PR #111)
 - **@ssumanbiswas** for AWS Security & Compliance skills (PR #106)
-- **@amartelr** for Antigravity Workspace Manager CLI (PR #110)
+- **@amartelr** for Agentic Workspace Manager CLI (PR #110)
 - **@fernandorych** for branch sync (PR #109)
 - **@Rodrigolmti** for reporting Codex YAML issue (#108)
 
@@ -502,7 +502,7 @@ This release adds comprehensive support for Kiro CLI, AWS's recently launched ag
 
 ## 🐛 Bug Fixes
 
-- **Installer Path Consistency**: Fixed Issue #105 where the published `v5.9.0` npm install script contained an older version of `bin/install.js`, causing `--antigravity` installs to mistakenly target `.agent/skills` instead of the global `~/.gemini/antigravity/skills`. This release (`5.10.0`) properly bundles the corrected npm install script.
+- **Installer Path Consistency**: Fixed Issue #105 where the published `v5.9.0` npm install script contained an older version of `bin/install.js`, causing `--gemini` installs to mistakenly target `.agent/skills` instead of the global `~/.agentic-skills`. This release (`5.10.0`) properly bundles the corrected npm install script.
 
 ## 👥 Credits
 
@@ -544,7 +544,7 @@ Walks through a 6-step setup for the Manifest observability platform, including 
 ## 📦 Improvements
 
 - **Registry Update**: Now tracking 883 skills.
-- **CLI Installer**: Fixed the default `.agent/skills` path to properly default to `~/.gemini/antigravity/skills` and added an explicit `--antigravity` flag (fixes #101).
+- **CLI Installer**: Fixed the default `.agent/skills` path to properly default to `~/.agentic-skills` and added an explicit `--gemini` flag (fixes #101).
 - **Validation**: Enforced strict folder-to-name matching and concise (<200 char) descriptions based on `agentskills-ref` (fixes #97).
 - **Validation**: Added build-time Markdown dangling link validation to `validate_skills.py` to prevent agents from hallucinating relative paths (fixes #102).
 
@@ -776,7 +776,7 @@ This release significantly upgrades our 3D visualization capabilities with a com
 
 ### Contributors
 
-- **[@sickn33](https://github.com/sickn33)** - Podcast Generation & Azure skills sync (PR #74).
+- **[@Abdeltoto](https://github.com/Abdeltoto)** - Podcast Generation & Azure skills sync (PR #74).
 - **[@aro-brez](https://github.com/aro-brez)** - WeEvolve skill (Issue #75).
 
 ---
@@ -816,15 +816,15 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ---
 
-## [5.0.0] - 2026-02-10 - "Antigravity Workflows Foundation"
+## [5.0.0] - 2026-02-10 - "Agentic Workflows Foundation"
 
 > Workflows are now first-class: users can run guided, multi-skill playbooks instead of manually composing skills one by one.
 
 ### Added
 
-- **New orchestration skill**: `antigravity-workflows`
-  - `skills/antigravity-workflows/SKILL.md`
-  - `skills/antigravity-workflows/resources/implementation-playbook.md`
+- **New orchestration skill**: `agentic-workflows`
+  - `skills/agentic-workflows/SKILL.md`
+  - `skills/agentic-workflows/resources/implementation-playbook.md`
 - **New workflow documentation**: `docs/WORKFLOWS.md`
   - Introduces the Workflows model and differentiates it from Bundles.
   - Provides execution playbooks with prerequisites, ordered steps, and prompt examples.
@@ -837,7 +837,7 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 ### Changed
 
 - **README / Onboarding docs** updated to include Workflows discovery and usage:
-  - `README.md` (TOC + "Antigravity Workflows" section)
+  - `README.md` (TOC + "Agentic Workflows" section)
   - `docs/GETTING_STARTED.md` (Bundles vs Workflows guidance)
   - `docs/FAQ.md` (new Q&A: Bundles vs Workflows)
 - **Go browser automation alignment**:
@@ -850,7 +850,7 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ### Contributors
 
-- [@sickn33](https://github.com/sickn33) - Workflows architecture, docs, and release integration
+- [@Abdeltoto](https://github.com/Abdeltoto) - Workflows architecture, docs, and release integration
 
 ---
 
@@ -973,7 +973,7 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ### Changed
 
-- **Documentation**: Clarified in README.md and GETTING_STARTED.md that installation means cloning the full repo once; Starter Packs are curated lists to discover skills by role, not a different installation method (fixes [#44](https://github.com/sickn33/antigravity-awesome-skills/issues/44)).
+- **Documentation**: Clarified in README.md and GETTING_STARTED.md that installation means cloning the full repo once; Starter Packs are curated lists to discover skills by role, not a different installation method (fixes [#44](https://github.com/Abdeltoto/agentic-awesome-skills/issues/44)).
 
 ### Registry
 
@@ -1025,11 +1025,11 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ## [4.0.0] - 2026-01-28 - "The Enterprise Era"
 
-> **A massive integration of 300+ Enterprise skills, transforming Antigravity into a complete operating system for AI agents.**
+> **A massive integration of 300+ Enterprise skills, transforming Agentic into a complete operating system for AI agents.**
 
 ### Added
 
-- **Massive Skill Injection**: Merged 300+ Enterprise skills from `rmyndharis/antigravity-skills`.
+- **Massive Skill Injection**: Merged 300+ Enterprise skills from `rmyndharis/agent-skills-collection`.
 - **New Categories**:
   - **Architecture & Design**: `backend-architect`, `c4-architecture`.
   - **Data & AI**: `rag-engineer`, `langchain-architecture`.
@@ -1063,7 +1063,7 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ### Contributors
 
-- [@sickn33](https://github.com/sickn33) - Voice AI Engine (PR #33)
+- [@Abdeltoto](https://github.com/Abdeltoto) - Voice AI Engine (PR #33)
 - [@community](https://github.com/community) - Categorization Initiative (PR #32)
 
 ## [3.3.0] - 2026-01-26 - "News & Research"
@@ -1173,7 +1173,7 @@ The following skills are now correctly indexed and visible in the registry:
 
 ### Contributors
 
-- [@sickn33](https://github.com/sickn33) - PR #23
+- [@Abdeltoto](https://github.com/Abdeltoto) - PR #23
 
 ## [2.12.0] - 2026-01-23 - "Enterprise & UI Power"
 
@@ -1395,13 +1395,13 @@ The following skills are now correctly indexed and visible in the registry:
 
 - **58 core skills** aggregated from community:
   - [obra/superpowers](https://github.com/obra/superpowers) - Original Superpowers
-  - [guanyang/antigravity-skills](https://github.com/guanyang/antigravity-skills) - Core extensions
+  - [guanyang](https://github.com/guanyang) - Core extensions
   - [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) - Infrastructure skills
   - [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) - React UI patterns
   - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) - Loki Mode
   - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) - Senior Engineering
 - Universal **SKILL.md** format
-- Compatibility with Claude Code, Gemini CLI, Cursor, Copilot, Antigravity
+- Compatibility with Claude Code, Gemini CLI, Cursor, Copilot, Agentic
 
 ---
 

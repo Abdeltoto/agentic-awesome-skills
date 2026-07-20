@@ -5,7 +5,7 @@ const path = require("path");
 const fs = require("fs");
 const os = require("os");
 
-const REPO = "https://github.com/sickn33/antigravity-awesome-skills.git";
+const REPO = "https://github.com/Abdeltoto/agentic-awesome-skills.git";
 const HOME = process.env.HOME || process.env.USERPROFILE || "";
 
 function resolveDir(p) {
@@ -23,7 +23,6 @@ function parseArgs() {
     claude = false,
     gemini = false,
     codex = false,
-    antigravity = false,
     kiro = false;
 
   for (let i = 0; i < a.length; i++) {
@@ -56,10 +55,6 @@ function parseArgs() {
       codex = true;
       continue;
     }
-    if (a[i] === "--antigravity") {
-      antigravity = true;
-      continue;
-    }
     if (a[i] === "--kiro") {
       kiro = true;
       continue;
@@ -75,7 +70,6 @@ function parseArgs() {
     claude,
     gemini,
     codex,
-    antigravity,
     kiro,
   };
 }
@@ -91,16 +85,14 @@ function defaultDir(opts) {
     return path.join(HOME, ".codex", "skills");
   }
   if (opts.kiro) return path.join(HOME, ".kiro", "skills");
-  if (opts.antigravity)
-    return path.join(HOME, ".gemini", "antigravity", "skills");
-  return path.join(HOME, ".gemini", "antigravity", "skills");
+  return path.join(HOME, ".agentic-skills");
 }
 
 function printHelp() {
   console.log(`
-antigravity-awesome-skills — installer
+agentic-awesome-skills — installer
 
-  npx antigravity-awesome-skills [install] [options]
+  npx agentic-awesome-skills [install] [options]
 
   Clones the skills repo into your agent's skills directory.
 
@@ -110,18 +102,17 @@ Options:
   --gemini       Install to ~/.gemini/skills (Gemini CLI)
   --codex        Install to ~/.codex/skills (Codex CLI)
   --kiro         Install to ~/.kiro/skills (Kiro CLI)
-  --antigravity  Install to ~/.gemini/antigravity/skills (Antigravity)
-  --path <dir>   Install to <dir> (default: ~/.gemini/antigravity/skills)
+  --path <dir>   Install to <dir> (default: ~/.agentic-skills)
   --version <ver>  After clone, checkout tag v<ver> (e.g. 4.6.0 -> v4.6.0)
   --tag <tag>      After clone, checkout this tag (e.g. v4.6.0)
 
 Examples:
-  npx antigravity-awesome-skills
-  npx antigravity-awesome-skills --cursor
-  npx antigravity-awesome-skills --kiro
-  npx antigravity-awesome-skills --antigravity
-  npx antigravity-awesome-skills --version 4.6.0
-  npx antigravity-awesome-skills --path ./my-skills
+  npx agentic-awesome-skills
+  npx agentic-awesome-skills --cursor
+  npx agentic-awesome-skills --kiro
+  npx agentic-awesome-skills --gemini
+  npx agentic-awesome-skills --version 4.6.0
+  npx agentic-awesome-skills --path ./my-skills
 `);
 }
 
@@ -182,7 +173,7 @@ function main() {
     process.exit(1);
   }
 
-  const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "ag-skills-"));
+  const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "agentic-skills-"));
   const originalCwd = process.cwd();
 
   try {

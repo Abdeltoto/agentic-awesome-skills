@@ -5,9 +5,9 @@
 set -e
 
 # Paths
-GITHUB_REPO="/Users/nicco/Antigravity Projects/antigravity-awesome-skills/skills"
-LOCAL_LIBRARY="/Users/nicco/.gemini/antigravity/scratch/.agent/skills"
-BACKUP_DIR="/Users/nicco/.gemini/antigravity/scratch/.agent/skills_backup_$(date +%Y%m%d_%H%M%S)"
+GITHUB_REPO="/Users/nicco/Agentic Projects/agentic-awesome-skills/skills"
+LOCAL_LIBRARY="/Users/nicco/.agentic-skills/scratch/.agent/skills"
+BACKUP_DIR="/Users/nicco/.agentic-skills/scratch/.agent/skills_backup_$(date +%Y%m%d_%H%M%S)"
 
 # 35 Recommended Skills
 RECOMMENDED_SKILLS=(

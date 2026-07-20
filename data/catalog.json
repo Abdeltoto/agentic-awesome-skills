@@ -974,15 +974,15 @@
       "path": "skills/anti-reversing-techniques/SKILL.md"
     },
     {
-      "id": "antigravity-workflows",
-      "name": "antigravity-workflows",
-      "description": "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
+      "id": "agentic-workflows",
+      "name": "agentic-workflows",
+      "description": "Orchestrate multiple Agentic skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
       "category": "security",
       "tags": [
-        "antigravity"
+        "agentic-skills"
       ],
       "triggers": [
-        "antigravity",
+        "agentic-skills",
         "orchestrate",
         "multiple",
         "skills",
@@ -995,7 +995,7 @@
         "audits",
         "ai"
       ],
-      "path": "skills/antigravity-workflows/SKILL.md"
+      "path": "skills/agentic-workflows/SKILL.md"
     },
     {
       "id": "api-design-principles",

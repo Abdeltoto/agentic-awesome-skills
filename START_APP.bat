@@ -1,9 +1,9 @@
 @echo off
 setlocal
-TITLE Antigravity Skills App
+TITLE Agentic Skills App
 
 echo ===================================================
-echo      Antigravity Awesome Skills - Web App
+echo      Agentic Awesome Skills - Web App
 echo ===================================================
 
 :: Check for Node.js
@@ -30,7 +30,7 @@ goto :USE_POWERSHELL
 git remote get-url upstream >nul 2>nul
 IF %ERRORLEVEL% EQU 0 goto :DO_FETCH
 echo [INFO] Adding upstream remote...
-git remote add upstream https://github.com/sickn33/antigravity-awesome-skills.git
+git remote add upstream https://github.com/Abdeltoto/agentic-awesome-skills.git
 
 :DO_FETCH
 echo [INFO] Fetching latest skills from original repo...
@@ -62,7 +62,7 @@ if exist "update_temp" rmdir /S /Q "update_temp" >nul 2>nul
 if exist "update.zip" del "update.zip" >nul 2>nul
 
 :: Download the latest repository as ZIP
-powershell -Command "Invoke-WebRequest -Uri 'https://github.com/sickn33/antigravity-awesome-skills/archive/refs/heads/main.zip' -OutFile 'update.zip' -UseBasicParsing" >nul 2>nul
+powershell -Command "Invoke-WebRequest -Uri 'https://github.com/Abdeltoto/agentic-awesome-skills/archive/refs/heads/main.zip' -OutFile 'update.zip' -UseBasicParsing" >nul 2>nul
 IF %ERRORLEVEL% NEQ 0 goto :DOWNLOAD_FAIL
 
 :: Extract and update skills
@@ -71,9 +71,9 @@ powershell -Command "Expand-Archive -Path 'update.zip' -DestinationPath 'update_
 IF %ERRORLEVEL% NEQ 0 goto :EXTRACT_FAIL
 
 :: Copy only the skills folder
-if exist "update_temp\antigravity-awesome-skills-main\skills" (
+if exist "update_temp\agentic-awesome-skills-main\skills" (
     echo [INFO] Updating skills directory...
-    xcopy /E /Y /I "update_temp\antigravity-awesome-skills-main\skills" "skills" >nul 2>nul
+    xcopy /E /Y /I "update_temp\agentic-awesome-skills-main\skills" "skills" >nul 2>nul
     echo [INFO] Skills updated successfully without Git!
 ) else (
     echo [WARN] Could not find skills folder in downloaded archive.

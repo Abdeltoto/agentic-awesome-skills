@@ -2,7 +2,7 @@
 
 > **"If it's not documented, it's broken."**
 
-This guide details the exact procedures for maintaining `antigravity-awesome-skills`.
+This guide details the exact procedures for maintaining `agentic-awesome-skills`.
 It covers the **Quality Bar**, **Documentation Consistency**, and **Release Workflows**.
 
 **Maintainer shortcuts:** [Merge a PR](#b-when-you-merge-a-pr-step-by-step) · [Post-merge & contributors](#c-post-merge-routine-must-do-before-a-release) · [Close issues](#when-to-close-an-issue) · [Create a release](#4-release-workflow)
@@ -159,7 +159,7 @@ Locations to check:
 
 ### E. Badges & Links
 
-- **Antigravity Badge**: Must point to `https://github.com/sickn33/antigravity-awesome-skills`, NOT `anthropics/antigravity`.
+- **Agentic Badge**: Must point to `https://github.com/Abdeltoto/agentic-awesome-skills`, NOT third-party trademarked names.
 - **License**: Ensure the link points to `LICENSE` file.
 
 ### F. Workflows Consistency (NEW in V5)
@@ -168,7 +168,7 @@ If you touch any Workflows-related artifact, keep all workflow surfaces in sync:
 
 1. `docs/WORKFLOWS.md` (human-readable playbooks)
 2. `data/workflows.json` (machine-readable schema)
-3. `skills/antigravity-workflows/SKILL.md` (orchestration entrypoint)
+3. `skills/agentic-workflows/SKILL.md` (orchestration entrypoint)
 
 Rules:
 
@@ -233,7 +233,7 @@ Validate → Changelog → Bump `package.json` (and README if needed) → Commit
 
     _Or create the release manually via GitHub UI > Releases > Draft a new release, then publish._
 
-5.  **Publish to npm** (so `npx antigravity-awesome-skills` works):
+5.  **Publish to npm** (so `npx agentic-awesome-skills` works):
     - **Option A (manual):** From repo root, with npm logged in and 2FA/token set up:
       ```bash
       npm publish

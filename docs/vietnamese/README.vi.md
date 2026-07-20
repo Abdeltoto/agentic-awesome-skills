@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 560+ Kỹ năng (Skills) cho Claude Code, Gemini CLI, Cursor, Copilot và nhiều hơn nữa
+# 🌌 Agentic Awesome Skills: 560+ Kỹ năng (Skills) cho Claude Code, Gemini CLI, Cursor, Copilot và nhiều hơn nữa
 
-> **Bộ sưu tập tối ưu gồm hơn 560 Kỹ năng Phổ quát cho các Trợ lý Lập trình AI — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **Bộ sưu tập tối ưu gồm hơn 560 Kỹ năng Phổ quát cho các Trợ lý Lập trình AI — Claude Code, Gemini CLI, Codex CLI, Gemini CLI, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -9,14 +9,14 @@
 [![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
 [![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
-[![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
+[![Agentic](https://img.shields.io/badge/Agentic-DeepMind-red)](https://github.com/Abdeltoto/agentic-awesome-skills)
 
-**Antigravity Awesome Skills** là một thư viện được tuyển chọn và kiểm chứng kỹ lưỡng với **560 kỹ năng hiệu suất cao** được thiết kế để hoạt động mượt mà trên tất cả các trợ lý lập trình AI lớn:
+**Agentic Awesome Skills** là một thư viện được tuyển chọn và kiểm chứng kỹ lưỡng với **560 kỹ năng hiệu suất cao** được thiết kế để hoạt động mượt mà trên tất cả các trợ lý lập trình AI lớn:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
 - 🟢 **Codex CLI** (OpenAI)
-- 🔴 **Antigravity IDE** (Google DeepMind)
+- 🔴 **Gemini CLI** (Google DeepMind)
 - 🩵 **GitHub Copilot** (VSCode Extension)
 - 🟠 **Cursor** (AI-native IDE)
 - ⚪ **OpenCode** (Mã nguồn mở CLI)
@@ -25,14 +25,14 @@
 
 ### 1. 🐣 Bối cảnh: Đây là gì?
 
-**Antigravity Awesome Skills** (Phiên bản 4.0.0) là một bản nâng cấp khổng lồ cho khả năng của AI.
+**Agentic Awesome Skills** (Phiên bản 4.0.0) là một bản nâng cấp khổng lồ cho khả năng của AI.
 
 Các trợ lý AI (như Claude Code, Cursor, hoặc Gemini) rất thông minh, nhưng chúng thiếu các **công cụ chuyên biệt**. Chúng không biết "Quy trình Triển khai" của công ty bạn hoặc cú pháp cụ thể cho "AWS CloudFormation".  
 **Skills** là các tệp markdown nhỏ dạy cho chúng cách thực hiện những tác vụ cụ thể này một cách chính xác trong mọi lần thực thi.
 ...
 Repository này cung cấp các kỹ năng thiết yếu để biến trợ lý AI của bạn thành một **đội ngũ chuyên gia số toàn năng**, bao gồm các khả năng chính thức từ **Anthropic**, **OpenAI**, **Google**, **Supabase**, **Apify**, và **Vercel Labs**.
 ...
-Cho dù bạn đang sử dụng **Gemini CLI**, **Claude Code**, **Codex CLI**, **Cursor**, **GitHub Copilot**, **Antigravity**, hay **OpenCode**, những kỹ năng này được thiết kế để có thể sử dụng ngay lập tức và tăng cường sức mạnh cho trợ lý AI của bạn.
+Cho dù bạn đang sử dụng **Gemini CLI**, **Claude Code**, **Codex CLI**, **Cursor**, **GitHub Copilot**, **Agentic**, hay **OpenCode**, những kỹ năng này được thiết kế để có thể sử dụng ngay lập tức và tăng cường sức mạnh cho trợ lý AI của bạn.
 
 Repository này tập hợp những khả năng tốt nhất từ khắp cộng đồng mã nguồn mở, biến trợ lý AI của bạn thành một đội ngũ chuyên gia số toàn năng có khả năng Kỹ thuật, Thiết kế, Bảo mật, Marketing và Vận hành Tự động.
 
@@ -64,20 +64,20 @@ Chúng tôi đã chuyển danh sách đầy đủ các kỹ năng sang một dan
 
 ## Cài đặt
 
-Để sử dụng các kỹ năng này với **Claude Code**, **Gemini CLI**, **Codex CLI**, **Cursor**, **Antigravity**, hoặc **OpenCode**, hãy clone repository này vào thư mục kỹ năng của assistant của bạn:
+Để sử dụng các kỹ năng này với **Claude Code**, **Gemini CLI**, **Codex CLI**, **Cursor**, **Agentic**, hoặc **OpenCode**, hãy clone repository này vào thư mục kỹ năng của assistant của bạn:
 
 ```bash
 # Cài đặt phổ thông (hoạt động với hầu hết các công cụ)
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/Abdeltoto/agentic-awesome-skills.git .agent/skills
 
 # Dành riêng cho Claude Code
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .claude/skills
+git clone https://github.com/Abdeltoto/agentic-awesome-skills.git .claude/skills
 
 # Dành riêng cho Gemini CLI
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .gemini/skills
+git clone https://github.com/Abdeltoto/agentic-awesome-skills.git .gemini/skills
 
 # Dành riêng cho Cursor
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
+git clone https://github.com/Abdeltoto/agentic-awesome-skills.git .cursor/skills
 ```
 
 ---
@@ -92,7 +92,7 @@ Chúng tôi chào đón mọi sự đóng góp từ cộng đồng! Để thêm 
 4. **Chạy kiểm tra xác thực**: `python3 scripts/validate_skills.py`.
 5. **Gửi một Pull Request**.
 
-Vui lòng đảm bảo kỹ năng của bạn tuân thủ các thực hành tốt nhất của Antigravity/Claude Code.
+Vui lòng đảm bảo kỹ năng của bạn tuân thủ các thực hành tốt nhất của Agentic/Claude Code.
 
 ---
 
@@ -123,9 +123,9 @@ Bộ sưu tập này sẽ không thể hình thành nếu không có công việ
 
 ### Những người đóng góp từ Cộng đồng
 
-- **[rmyndharis/antigravity-skills](https://github.com/rmyndharis/antigravity-skills)**: Cho sự đóng góp khổng lồ của hơn 300+ kỹ năng Enterprise và logic tạo danh mục.
+- **[rmyndharis](https://github.com/rmyndharis)**: Cho sự đóng góp khổng lồ của hơn 300+ kỹ năng Enterprise và logic tạo danh mục.
 - **[obra/superpowers](https://github.com/obra/superpowers)**: Bản "Superpowers" gốc bởi Jesse Vincent.
-- **[guanyang/antigravity-skills](https://github.com/guanyang/antigravity-skills)**: Các bản mở rộng Antigravity cốt lõi.
+- **[guanyang](https://github.com/guanyang)**: Các bản mở rộng agentic cốt lõi.
 - **[diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase)**: Cơ sở hạ tầng và Hướng dẫn cho Backend/Frontend.
 - **[ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase)**: Các mẫu React UI và Hệ thống Thiết kế.
 - **[travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)**: Loki Mode và tích hợp Playwright.
@@ -135,7 +135,7 @@ Bộ sưu tập này sẽ không thể hình thành nếu không có công việ
 - **[zircote/.claude](https://github.com/zircote/.claude)**: Tham chiếu kỹ năng phát triển cho Shopify.
 - **[vibeforge1111/vibeship-spawner-skills](https://github.com/vibeforge1111/vibeship-spawner-skills)**: Trợ lý AI, Tích hợp, Công cụ của nhà sáng tạo (57 kỹ năng, Apache 2.0).
 - **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)**: Các kỹ năng Marketing cho CRO, copywriting, SEO, quảng cáo trả phí và tăng trưởng (23 kỹ năng, MIT).
-- **[vudovn/antigravity-kit](https://github.com/vudovn/antigravity-kit)**: Các mẫu AI Agent với Kỹ năng, Agents và Quy trình làm việc (33 kỹ năng, MIT).
+- **[vudovn](https://github.com/vudovn)**: Các mẫu AI Agent với Kỹ năng, Agents và Quy trình làm việc (33 kỹ năng, MIT).
 - **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)**: Bộ sưu tập cấu hình Claude Code đầy đủ từ người chiến thắng cuộc thi hackathon của Anthropic - chỉ phần kỹ năng (8 kỹ năng, MIT).
 - **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Nguồn cho kỹ năng agent-memory-mcp.
 - **[sstklen/claude-api-cost-optimization](https://github.com/sstklen/claude-api-cost-optimization)**: Tiết kiệm 50-90% chi phí Claude API với các chiến lược tối ưu hóa thông minh (MIT).
@@ -168,7 +168,7 @@ Chúng tôi chính thức cảm ơn những người đóng góp sau đây đã 
 - [Munir Abbasi](https://github.com/munirabbasi)
 - [Mohammad Faiz](https://github.com/mohdfaiz2k9)
 - [Ianj332](https://github.com/Ianj332)
-- [sickn33](https://github.com/sickn33)
+- [Abdeltoto](https://github.com/Abdeltoto)
 - [GuppyTheCat](https://github.com/GuppyTheCat)
 - [Tiger-Foxx](https://github.com/Tiger-Foxx)
 - [arathiesh](https://github.com/arathiesh)
@@ -188,4 +188,4 @@ Chúng tôi chính thức cảm ơn những người đóng góp sau đây đã 
 
 ## Lịch sử Star
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sickn33/antigravity-awesome-skills&type=date&legend=top-left)](https://www.star-history.com/#sickn33/antigravity-awesome-skills&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=Abdeltoto/agentic-awesome-skills&type=date&legend=top-left)](https://www.star-history.com/#Abdeltoto/agentic-awesome-skills&type=date&legend=top-left)

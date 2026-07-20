@@ -1,4 +1,4 @@
-# Antigravity Workflows Implementation Playbook
+# Agentic Workflows Implementation Playbook
 
 This document explains how an agent should execute workflow-based orchestration.
 

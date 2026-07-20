@@ -1,6 +1,6 @@
 # ❓ Frequently Asked Questions (FAQ)
 
-**Got questions?** You're not alone! Here are answers to the most common questions about Antigravity Awesome Skills.
+**Got questions?** You're not alone! Here are answers to the most common questions about Agentic Awesome Skills.
 
 ---
 
@@ -34,7 +34,7 @@ Start from:
 - ✅ **Gemini CLI** (Google)
 - ✅ **Codex CLI** (OpenAI)
 - ✅ **Cursor** (AI IDE)
-- ✅ **Antigravity IDE**
+- ✅ **Gemini CLI**
 - ✅ **OpenCode**
 - ⚠️ **GitHub Copilot** (partial support via copy-paste)
 
@@ -75,12 +75,12 @@ _Always check the Risk label and review the code._
 
 The universal path that works with most tools is `.agent/skills/`.
 
-**Using npx:** `npx antigravity-awesome-skills` (or `npx github:sickn33/antigravity-awesome-skills` if you get a 404).
+**Using npx:** `npx agentic-awesome-skills` (or `npx github:Abdeltoto/agentic-awesome-skills` if you get a 404).
 
 **Using git clone:**
 
 ```bash
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/Abdeltoto/agentic-awesome-skills.git .agent/skills
 ```
 
 **Tool-specific paths:**
@@ -96,7 +96,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 Run git with:
 
 ```bash
-git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone -c core.symlinks=true https://github.com/Abdeltoto/agentic-awesome-skills.git .agent/skills
 ```
 
 Or enable "Developer Mode" in Windows Settings.
@@ -152,7 +152,7 @@ Use the `@` symbol followed by the skill name:
 
 ### A skill gives incorrect or outdated advice
 
-Please [Open an issue](https://github.com/sickn33/antigravity-awesome-skills/issues)!
+Please [Open an issue](https://github.com/Abdeltoto/agentic-awesome-skills/issues)!
 Include:
 
 - Which skill
@@ -193,4 +193,4 @@ V4 introduces automated quality control. Your skill might be missing:
 - Try `@test-driven-development` for better code quality
 - Explore `@skill-creator` to make your own skills
 
-**Still confused?** [Open a discussion](https://github.com/sickn33/antigravity-awesome-skills/discussions) and we'll help you out! 🙌
+**Still confused?** [Open a discussion](https://github.com/Abdeltoto/agentic-awesome-skills/discussions) and we'll help you out! 🙌

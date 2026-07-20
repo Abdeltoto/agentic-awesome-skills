@@ -10,9 +10,9 @@ Great question! Here's what just happened and what to do next:
 
 ### What You Just Did
 
-When you ran `npx antigravity-awesome-skills` or cloned the repository, you:
+When you ran `npx agentic-awesome-skills` or cloned the repository, you:
 
-✅ **Downloaded 954+ skill files** to your computer (default: `~/.gemini/antigravity/skills/`; or `~/.agent/skills/` if you used `--path`)  
+✅ **Downloaded 954+ skill files** to your computer (default: `~/.agentic-skills/`; or `~/.agent/skills/` if you used `--path`)  
 ✅ **Made them available** to your AI assistant  
 ❌ **Did NOT enable them all automatically** (they're just sitting there, waiting)
 
@@ -95,7 +95,7 @@ Use the brainstorming skill to help me plan my app
 Apply @brainstorming to design a new feature
 ```
 
-#### Antigravity IDE
+#### Gemini CLI
 
 ```bash
 # In agent mode:
@@ -312,7 +312,7 @@ Usually no, but if your AI doesn't recognize a skill:
 
 1. Try restarting your IDE/CLI
 2. Check the installation path matches your tool
-3. Try the explicit path: `npx antigravity-awesome-skills --claude` (or `--cursor`, `--gemini`, etc.)
+3. Try the explicit path: `npx agentic-awesome-skills --claude` (or `--cursor`, `--gemini`, etc.)
 
 ### "Can I create my own skills?"
 
@@ -326,7 +326,7 @@ Use @skill-creator to help me build a custom skill for [your task]
 
 1. Check the skill's SKILL.md file directly: `~/.agent/skills/[skill-name]/SKILL.md`
 2. Read the description to ensure you're using it correctly
-3. [Open an issue](https://github.com/sickn33/antigravity-awesome-skills/issues) with details
+3. [Open an issue](https://github.com/Abdeltoto/agentic-awesome-skills/issues) with details
 
 ---
 
@@ -388,7 +388,7 @@ If something still doesn't make sense:
 
 1. Check the [FAQ](FAQ.md)
 2. See [Real-World Examples](EXAMPLES.md)
-3. [Open a Discussion](https://github.com/sickn33/antigravity-awesome-skills/discussions)
-4. [File an Issue](https://github.com/sickn33/antigravity-awesome-skills/issues) to help us improve this guide!
+3. [Open a Discussion](https://github.com/Abdeltoto/agentic-awesome-skills/discussions)
+4. [File an Issue](https://github.com/Abdeltoto/agentic-awesome-skills/issues) to help us improve this guide!
 
 Remember: You're not alone! The whole point of this project is to make AI assistants easier to use. If this guide didn't help, let us know so we can fix it. 🙌

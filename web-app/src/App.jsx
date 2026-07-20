@@ -12,13 +12,13 @@ function App() {
           <div className="container flex h-14 max-w-screen-2xl items-center mx-auto px-4">
             <Link to="/" className="mr-8 flex items-center space-x-2">
               <BookOpen className="h-6 w-6 text-indigo-600 dark:text-indigo-400" />
-              <span className="hidden font-bold sm:inline-block">Antigravity Skills</span>
+              <span className="hidden font-bold sm:inline-block">Agentic Skills</span>
             </Link>
             <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
 
               <nav className="flex items-center space-x-6 text-sm font-medium">
                 <a
-                  href="https://github.com/sickn33/antigravity-awesome-skills"
+                  href="https://github.com/Abdeltoto/agentic-awesome-skills"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center text-slate-600 transition-colors hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-50"

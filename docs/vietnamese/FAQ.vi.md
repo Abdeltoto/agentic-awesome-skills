@@ -1,6 +1,6 @@
 # ❓ Câu hỏi thường gặp (FAQ)
 
-**Bạn có thắc mắc?** Bạn không hề cô đơn! Dưới đây là câu trả lời cho những câu hỏi thường gặp nhất về Antigravity Awesome Skills.
+**Bạn có thắc mắc?** Bạn không hề cô đơn! Dưới đây là câu trả lời cho những câu hỏi thường gặp nhất về Agentic Awesome Skills.
 
 ---
 
@@ -23,7 +23,7 @@ Nó giống như việc sở hữu một thư viện - tất cả sách đều �
 - ✅ **Gemini CLI** (Google)
 - ✅ **Codex CLI** (OpenAI)
 - ✅ **Cursor** (IDE tích hợp AI)
-- ✅ **Antigravity IDE**
+- ✅ **Gemini CLI**
 - ✅ **OpenCode**
 - ⚠️ **GitHub Copilot** (Hỗ trợ một phần qua việc copy-paste)
 
@@ -65,7 +65,7 @@ _Luôn kiểm tra nhãn rủi ro và xem xét mã nguồn trước khi dùng._
 Đường dẫn phổ biến nhất hoạt động với mạng lưới các công cụ AI là `.agent/skills/`:
 
 ```bash
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/Abdeltoto/agentic-awesome-skills.git .agent/skills
 ```
 
 **Các đường dẫn cụ thể cho từng công cụ:**
@@ -80,7 +80,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 Hãy chạy git clone với lệnh sau:
 
 ```bash
-git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone -c core.symlinks=true https://github.com/Abdeltoto/agentic-awesome-skills.git .agent/skills
 ```
 
 Hoặc bật "Chế độ Nhà phát triển" (Developer Mode) trong phần Cài đặt của Windows.
@@ -134,7 +134,7 @@ Sử dụng biểu tượng `@` theo sau là tên skill:
 
 ### Một kỹ năng đưa ra lời khuyên sai hoặc lỗi thời
 
-Hãy [Mở một issue](https://github.com/sickn33/antigravity-awesome-skills/issues)!  
+Hãy [Mở một issue](https://github.com/Abdeltoto/agentic-awesome-skills/issues)!  
 Vui lòng gửi kèm:
 
 - Skill nào?
@@ -175,4 +175,4 @@ Hãy chạy `python3 scripts/validate_skills.py` cục bộ để kiểm tra tr�
 - Thử `@test-driven-development` để code có chất lượng tốt hơn.
 - Khám phá `@skill-creator` để tự tạo kỹ năng của riêng bạn.
 
-**Vẫn còn thắc mắc?** [Mở một cuộc thảo luận (Discussion)](https://github.com/sickn33/antigravity-awesome-skills/discussions) và chúng tôi sẽ giúp bạn! 🙌
+**Vẫn còn thắc mắc?** [Mở một cuộc thảo luận (Discussion)](https://github.com/Abdeltoto/agentic-awesome-skills/discussions) và chúng tôi sẽ giúp bạn! 🙌

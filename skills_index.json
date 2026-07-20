@@ -410,11 +410,11 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "antigravity-workflows",
-    "path": "skills/antigravity-workflows",
+    "id": "agentic-workflows",
+    "path": "skills/agentic-workflows",
     "category": "uncategorized",
-    "name": "antigravity-workflows",
-    "description": "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
+    "name": "agentic-workflows",
+    "description": "Orchestrate multiple Agentic skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
     "risk": "none",
     "source": "self",
     "date_added": "2026-02-27"

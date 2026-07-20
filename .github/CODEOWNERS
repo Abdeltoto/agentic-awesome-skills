@@ -1,8 +1,8 @@
-# Global owners
-* @sickn33
+# Default owners for everything in the repo
+* @Abdeltoto
 
-# Skills
-/skills/ @sickn33
+# Skills directory
+/skills/ @Abdeltoto
 
 # Documentation
-*.md @sickn33
+*.md @Abdeltoto

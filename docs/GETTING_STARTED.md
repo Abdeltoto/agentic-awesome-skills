@@ -1,4 +1,4 @@
-# Getting Started with Antigravity Awesome Skills (V6.5.0)
+# Getting Started with Agentic Awesome Skills (V6.5.0)
 
 **New here? This guide will help you supercharge your AI Agent in 5 minutes.**
 
@@ -27,18 +27,18 @@ You **install the full repo once** (npx or clone); Starter Packs are curated lis
 **Option A — npx (easiest):**
 
 ```bash
-npx antigravity-awesome-skills
+npx agentic-awesome-skills
 ```
 
-This clones to `~/.gemini/antigravity/skills` by default. Use `--cursor`, `--claude`, `--gemini`, `--codex`, or `--kiro` to install for a specific tool, or `--path <dir>` for a custom location. Run `npx antigravity-awesome-skills --help` for details.
+This clones to `~/.agentic-skills` by default. Use `--cursor`, `--claude`, `--gemini`, `--codex`, or `--kiro` to install for a specific tool, or `--path <dir>` for a custom location. Run `npx agentic-awesome-skills --help` for details.
 
-If you see a 404 error, use: `npx github:sickn33/antigravity-awesome-skills`
+If you see a 404 error, use: `npx github:Abdeltoto/agentic-awesome-skills`
 
 **Option B — git clone:**
 
 ```bash
 # Universal (works for most agents)
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/Abdeltoto/agentic-awesome-skills.git .agent/skills
 ```
 
 ### 2. Pick Your Persona
@@ -65,7 +65,7 @@ Start with bundles in [BUNDLES.md](BUNDLES.md), then run a workflow from [WORKFL
 
 Example:
 
-> "Use **@antigravity-workflows** and run `ship-saas-mvp` for my project idea."
+> "Use **@agentic-workflows** and run `ship-saas-mvp` for my project idea."
 
 ---
 
@@ -102,7 +102,7 @@ Once installed, just talk to your AI naturally.
 | **Codex CLI**   | ✅ Full Support | `.codex/skills/`                                                      |
 | **Kiro CLI**    | ✅ Full Support | Global: `~/.kiro/skills/` · Workspace: `.kiro/skills/`                |
 | **Kiro IDE**    | ✅ Full Support | Global: `~/.kiro/skills/` · Workspace: `.kiro/skills/`                |
-| **Antigravity** | ✅ Native       | Global: `~/.gemini/antigravity/skills/` · Workspace: `.agent/skills/` |
+| **Agentic** | ✅ Native       | Global: `~/.agentic-skills/` · Workspace: `.agent/skills/` |
 | **Cursor**      | ✅ Native       | `.cursor/skills/`                                                     |
 | **OpenCode**    | ✅ Full Support | `.agents/skills/`                                                     |
 | **AdaL CLI**    | ✅ Full Support | `.adal/skills/`                                                       |

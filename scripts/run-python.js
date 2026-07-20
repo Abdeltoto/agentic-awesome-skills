@@ -29,7 +29,7 @@ function uniqueCandidates(candidates) {
 function getPythonCandidates() {
   // Optional override for CI/local pinning without editing scripts.
   const configuredPython =
-    process.env.ANTIGRAVITY_PYTHON || process.env.npm_config_python;
+    process.env.AGENTIC_PYTHON || process.env.npm_config_python;
   const candidates = [
     configuredPython ? [configuredPython] : null,
     // Keep this ordered list easy to update if project requirements change.

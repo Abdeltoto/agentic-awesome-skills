@@ -28,7 +28,7 @@
 ## 📦 Repository Structure (Visual)
 
 ```
-antigravity-awesome-skills/
+agentic-awesome-skills/
 │
 ├── 📄 README.md                    ← Overview & skill list
 ├── 📄 CONTRIBUTING.md              ← How to contribute
@@ -181,7 +181,7 @@ antigravity-awesome-skills/
 │ Terminal                                │
 ├─────────────────────────────────────────┤
 │ $ git clone https://github.com/        │
-│   sickn33/antigravity-awesome-skills    │
+│   Abdeltoto/agentic-awesome-skills    │
 │   .agent/skills                         │
 │                                         │
 │ ✓ Cloning into '.agent/skills'...      │

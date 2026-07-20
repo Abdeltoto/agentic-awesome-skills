@@ -3,7 +3,7 @@ name: Bug Report
 about: Create a report to help us improve the skills
 title: "[BUG] "
 labels: bug
-assignees: sickn33
+assignees: Abdeltoto
 ---
 
 **Describe the bug**
@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
 **Environment (please complete the following information):**
 
 - OS: [e.g. macOS, Windows]
-- Tool: [e.g. Claude Code, Antigravity]
+- Tool: [e.g. Claude Code, Agentic]
 - Version [if known]
 
 **Additional context**

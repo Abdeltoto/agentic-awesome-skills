@@ -1,4 +1,4 @@
-# 🧪 Real-World Examples ("The Antigravity Cookbook")
+# 🧪 Real-World Examples ("The Agentic Cookbook")
 
 Skills are powerful on their own, but unstoppable when combined.
 Here are three common scenarios and how to solve them using this repository.
